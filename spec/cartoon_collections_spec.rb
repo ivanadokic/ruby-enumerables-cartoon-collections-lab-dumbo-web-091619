@@ -8,6 +8,11 @@ describe "Cartoon Collections" do
       output = capture_stdout do
         roll_call_dwarves(dwarves)
       end
+      def summon_captain_planet(array)
+   array.collect { |i| i.capitalize << "!" } 
+end	end
+
+
 
       # This regex allows for arbitrary characters between
       # the numbering and the name
